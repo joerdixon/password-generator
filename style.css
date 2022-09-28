@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 50%;
+    text-align: center;
+    margin: 10vh auto;
+    font-family: "Trebuchet MS";
+}
+
+.options {
+    display: flex;
+    width: 60%;
+    margin: 20vh auto;
+    justify-content: space-evenly;
+}
+
+.options a {
+    text-decoration: none;
+    font-family: "lucida console";
+    font-size: 2rem;
+}
