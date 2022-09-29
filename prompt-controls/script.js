@@ -12,7 +12,7 @@ var symbollist = ["!", "@", "#", "$", "%", "&", "*"];
 
 function generatePassword() {
 
-  // Initialize array of all possible characters.
+  // Initialize empty array for possible characters.
   var possible = [];
 
   // Lower case check
@@ -73,5 +73,6 @@ function writePassword() {
   passwordText.value = password;
 }
 
-// Add event listener to generate button
+// Add event listener to generate button.
+
 generateBtn.addEventListener("click", writePassword);

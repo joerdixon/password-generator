@@ -24,7 +24,7 @@ function generatePassword() {
   // Symbols Check
   var symbols = document.querySelector("#symbols").checked;
   // Length Check
-  var length = document.querySelector("#length").value
+  var length = document.querySelector("#length").value;
 
 
   // Catches if a user does not select any boxes.
